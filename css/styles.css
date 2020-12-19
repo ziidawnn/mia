@@ -62,6 +62,33 @@ body span {
     transition-delay: 2.5s;
 }
 
+body a {
+    opacity: 0;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: opacity .6s ease-in .6s;
+    transition: opacity .6s ease-in .6s;
+    transition-delay: 6s;
+    margin-top: 29px;
+    position: relative;
+    display: block;
+}
+
+.specialgift {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    color: #fff !important;
+    background-color: #ec407a;
+    border-color: #ec407a;
+    text-decoration: none;
+    border-radius: 10rem;
+    padding: .4rem 1.5rem;
+    line-height: 1.5;
+}
+
 body .particletext.hearts>.particle {
     opacity: 0;
     position: absolute;

@@ -23,6 +23,7 @@ initparticles();
 jQuery(window).load(function () {
     $('h2').addClass('mia');
     $('span').addClass('show');
+    $('a').addClass('show');
     playMusic();
 });
 
@@ -30,6 +31,10 @@ function playMusic() {
     var z = document.getElementById("playAudio");
     z.volume = 0.2;
     z.play;
+}
+
+function ziidawnn() {
+  alert("a small gift for you!");
 }
 
 particlesJS("particles-js", {
