@@ -16,13 +16,19 @@ h2 {
 }
 
 footer {
-    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #b1bac4;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 body .textcontainer {
     padding: 40px 0;
     text-align: center;
-    color: white;
+    color: #c1d1d9;
     position: absolute;
     width: 100%;
     top: 50%;
@@ -65,7 +71,7 @@ body span {
 body a {
     opacity: 0;
     text-decoration: none;
-    color: white;
+    color: #c1d1d9;
     -webkit-transition: opacity .6s ease-in .6s;
     transition: opacity .6s ease-in .6s;
     transition-delay: 6s;
