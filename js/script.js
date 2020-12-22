@@ -34,7 +34,12 @@ function playMusic() {
 }
 
 function ziidawnn() {
-  alert("a small gift for you!");
+  swal({
+    title: "Hi, mia",
+    text: "This is a small gift for you",
+  }).then(function() {
+    window.open('img/ziidawnn.jpg', "_blank")
+  })
 }
 
 particlesJS("particles-js", {
